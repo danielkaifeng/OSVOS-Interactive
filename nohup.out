@@ -1,0 +1,80 @@
+[W 11:26:15.008 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 11:26:15.012 NotebookApp] Serving notebooks from local directory: /data/daniel/project/OSVOS-Interactive
+[I 11:26:15.012 NotebookApp] The Jupyter Notebook is running at:
+[I 11:26:15.012 NotebookApp] http://localhost:2501/
+[I 11:26:15.012 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 11:26:29.822 NotebookApp] 302 GET / (121.35.103.238) 0.67ms
+[I 11:26:29.836 NotebookApp] 302 GET /tree? (121.35.103.238) 0.59ms
+[I 11:26:42.050 NotebookApp] 302 POST /login?next=%2Ftree%3F (121.35.103.238) 1.28ms
+[W 11:27:12.217 NotebookApp] Notebook demo_pred.ipynb is not trusted
+[W 11:27:12.727 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20191125112614 (121.35.103.238) 7.93ms referer=http://123.207.114.145:2501/notebooks/demo_pred.ipynb
+[W 11:28:00.934 NotebookApp] Notebook demo_pred.ipynb is not trusted
+[W 11:28:01.433 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20191125112614 (121.35.103.238) 1.63ms referer=http://123.207.114.145:2501/notebooks/demo_pred.ipynb
+[W 11:28:56.044 NotebookApp] Notebook demo_train.ipynb is not trusted
+[W 11:28:56.614 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20191125112614 (121.35.103.238) 1.29ms referer=http://123.207.114.145:2501/notebooks/demo_train.ipynb
+[I 11:34:15.268 NotebookApp] Kernel started: 6328a819-e1b9-4785-b770-6ef730eef5a5
+[I 11:36:19.701 NotebookApp] Saving file at /demo_train.ipynb
+[W 11:36:19.703 NotebookApp] Notebook demo_train.ipynb is not trusted
+[W 12:05:16.010 NotebookApp] WebSocket ping timeout after 119992 ms.
+[I 12:05:21.021 NotebookApp] Starting buffering for 6328a819-e1b9-4785-b770-6ef730eef5a5:35c87174df8f4a449a65d92a82ab9165
+[I 12:13:37.074 NotebookApp] Restoring connection for 6328a819-e1b9-4785-b770-6ef730eef5a5:35c87174df8f4a449a65d92a82ab9165
+[W 13:38:54.531 NotebookApp] Notebook demo_pred.ipynb is not trusted
+[W 13:38:55.038 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20191125112614 (121.35.103.238) 1.31ms referer=http://123.207.114.145:2501/notebooks/demo_pred.ipynb
+[I 13:39:28.913 NotebookApp] Kernel started: ba39bb11-eb81-4ddf-ae83-56afa0929671
+[I 13:41:37.806 NotebookApp] Saving file at /demo_pred.ipynb
+[W 13:41:37.811 NotebookApp] Notebook demo_pred.ipynb is not trusted
+[I 13:45:36.142 NotebookApp] Saving file at /demo_pred.ipynb
+[W 13:45:36.147 NotebookApp] Notebook demo_pred.ipynb is not trusted
+[I 13:53:32.834 NotebookApp] Saving file at /demo_pred.ipynb
+[W 13:53:32.839 NotebookApp] Notebook demo_pred.ipynb is not trusted
+[I 13:59:34.044 NotebookApp] Saving file at /demo_pred.ipynb
+[W 13:59:34.049 NotebookApp] Notebook demo_pred.ipynb is not trusted
+2019-11-25 14:12:05.708475: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-11-25 14:12:05.715664: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-11-25 14:12:05.835310: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-11-25 14:12:05.835626: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5e85100 executing computations on platform CUDA. Devices:
+2019-11-25 14:12:05.835653: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla M40 24GB, Compute Capability 5.2
+2019-11-25 14:12:05.838108: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2399995000 Hz
+2019-11-25 14:12:05.840559: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5d75690 executing computations on platform Host. Devices:
+2019-11-25 14:12:05.840579: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-11-25 14:12:05.841111: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-11-25 14:12:05.841306: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla M40 24GB major: 5 minor: 2 memoryClockRate(GHz): 1.112
+pciBusID: 0000:00:06.0
+2019-11-25 14:12:05.841604: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-11-25 14:12:05.842858: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-11-25 14:12:05.843943: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2019-11-25 14:12:05.844232: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2019-11-25 14:12:05.845642: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2019-11-25 14:12:05.846714: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2019-11-25 14:12:05.849245: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-11-25 14:12:05.849324: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-11-25 14:12:05.849541: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-11-25 14:12:05.849699: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-11-25 14:12:05.849752: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-11-25 14:12:05.850351: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-25 14:12:05.850365: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-11-25 14:12:05.850370: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-11-25 14:12:05.850513: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-11-25 14:12:05.850719: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-11-25 14:12:05.850904: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 621 MB memory) -> physical GPU (device: 0, name: Tesla M40 24GB, pci bus id: 0000:00:06.0, compute capability: 5.2)
+2019-11-25 14:12:05.877645: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: GPU CPU XLA_CPU XLA_GPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  global_step (VariableV2) /device:GPU:0
+  global_step/Assign (Assign) /device:GPU:0
+  global_step/read (Identity) /device:GPU:0
+  save/Assign (Assign) /device:GPU:0
+
+[I 14:13:34.107 NotebookApp] Saving file at /demo_pred.ipynb
+[W 14:13:34.112 NotebookApp] Notebook demo_pred.ipynb is not trusted
+[I 14:13:43.979 NotebookApp] Starting buffering for 6328a819-e1b9-4785-b770-6ef730eef5a5:35c87174df8f4a449a65d92a82ab9165
+[I 14:14:03.412 NotebookApp] Starting buffering for ba39bb11-eb81-4ddf-ae83-56afa0929671:40a9ddb33ec94c778fb703f69d989081
